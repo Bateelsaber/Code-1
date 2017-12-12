@@ -18,7 +18,7 @@ void draw() {
   //draw ellipse
 noStroke();
 fill(10,20, 70);
-ellipse(x*cos(n*0.8)*0.7, y-300*n-50*sin(n*0.05)*tan(n*0.2)*5*n+n, random(diameter)+n, random(diameter));
+ellipse(x*cos(n*0.8)*0.7, y-300*n-50*sin(n*0.05)*cos(n*0.2)*5*n+n, random(diameter)+n, random(diameter));
 
 }
   } 
